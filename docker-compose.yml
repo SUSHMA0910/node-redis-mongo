@@ -13,7 +13,7 @@ services:
             - redis
     mongo:
         container_name: mongo-services
-        image: 8967554398/mongo
+        image: ahildarshan/mongo
         ports:
             - 27017:27017
     redis:
